@@ -56,3 +56,22 @@ src/
 ├── App.jsx
 ├── main.jsx
 └── index.css
+
+## 💻 How to Run the Project
+
+Follow these steps:
+
+1. Clone the repository
+2. Navigate to the project folder
+3. Install dependencies:
+   npm install:
+4. Start the development server:
+   npm run dev
+
+5. Open the browser at:
+
+http://localhost:5173
+
+## 👩‍💻 Author
+
+Developed by Vandhana Dharavath.
