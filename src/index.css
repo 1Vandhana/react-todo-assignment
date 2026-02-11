@@ -1,0 +1,164 @@
+/* ===== BODY BACKGROUND ===== */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: url("https://i.pinimg.com/1200x/a0/d1/06/a0d10685e69a06c62267df91f8a61eb6.jpg")
+  /*background: url("https://i.pinimg.com/474x/16/b1/fc/16b1fce9e11dc13d784c1d55502cbbf0.jpg")*/
+    no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ///// GLASS EFFECT CONTAINER //// */
+.app-container {
+  width: 420px;
+  padding: 25px;
+  border-radius: 20px;
+
+  background:url("https://in.pinterest.com/pin/597993656811962407/") 
+    no-repeat center center fixed;;
+      
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* =====// HEADER // ===== */
+header h1 {
+  text-align: center;
+  -webkit-text-fill-color: rgb(14, 15, 14);
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #f5f2f2;
+  letter-spacing: 1px;
+  animation: slideDown 0.8s ease-in-out;
+  
+}
+/* =====// INPUT SECTION // ===== */
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  box-shadow: 0 0 8px #1ab469;
+}
+
+/* ===== BUTTON STYLE ===== */
+button {
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  /*background: linear-gradient(135deg, #2ef134, #10be2a);*/
+  transition: 0.3s ease;
+  font-weight: bold;
+}
+.add-btn{
+  background: linear-gradient(135deg, #199b69, #199b69);
+  color: black;
+  border-radius: 8px;
+
+}
+.save-btn{
+  background: linear-gradient(135deg, #d8a91c,  #d8a91c);
+  color: black;
+  border-radius: 8px;
+}
+.delete-btn {
+  background: linear-gradient(135deg, #b50303, #cc0000);
+  color: black;
+  border-radius: 8px;
+}
+.edit-btn{
+  background: linear-gradient(135deg, #3268b4, #1b78cf);
+  color: black;
+  border-radius: 8px;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== TODO LIST ===== */
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* ===== TODO ITEM ===== */
+.todo-list li {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(8px);
+  margin-bottom: 12px;
+  padding: 10px 12px;
+  border-radius: 12px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  transition: 0.3s ease;
+  animation: fadeInUp 0.4s ease;
+}
+
+.todo-list li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* =====///// COMPLETED TASK ////===== */
+.completed span {
+  text-decoration: line-through;
+  color: #444;
+  opacity: 0.7;
+}
+
+/* =====/// ANIMATIONS /////===== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
