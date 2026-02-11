@@ -1,3 +1,4 @@
+React-todo-assignment
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -16,11 +17,7 @@ The React Compiler is not enabled on this template because of its impact on dev 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
 
-GITHUB LINK:
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/72276d1d-4ea4-4863-9b8e-7ca12e230bbf" />
-
-# React To-Do List Application
-
+GITHUB LINK:"https://github.com/1Vandhana/react-todo-assignment/tree/main"
 
 ## 📌 Project Overview
 
@@ -76,6 +73,9 @@ Follow these steps:
 5. Open the browser at:
 
 http://localhost:5173
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/72276d1d-4ea4-4863-9b8e-7ca12e230bbf" />
+
+# React To-Do List Application
 
 ## 👩‍💻 Author
 
